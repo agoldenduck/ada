@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	width:460px !important;
+	background:#000000 !important;
+}
+
+div, section, footer, header, nav, article {
+	float:none !important;
+	width:80% !important;
+	max-width: 80% !important;
+	position:relative !important;
+	margin: 20px 5% !important;
+	border:0 !important;
+	left:0 !important;
+	right:0 !important;
+	padding: 20px 5% !important;
+}
+
+#headnav, #container, #pFolio {
+    margin:0  !important;
+    padding:0 !important;
+	width:100% !important;
+	max-width:100% !important;
+}
+
+a {
+	text-decoration:none;
+}
+
+#home {
+	overflow:auto;
+	position:relative;
+	float:left;
+	height:auto;
+}
+
+ul ul.CSStoShow {
+    display:none;
+}
+
+ul li:hover ul {
+    display:none;
+}
+
+ul li span {
+    display:none;
+}
+
+#home section {
+	display:none;
+}
+
+#home article {
+	display:inline-block !important;
+	top:inherit !important;
+	bottom:inherit !important;
+	width:90% !important;
+	
+}
+
+section img, section iframe {
+	width:88% !important;
+	height:auto !important;
+	margin:auto !important;
+	padding:auto !important;
+	clip:rect(auto, auto, 300px, auto) !important;
+}
+
+.hero img {
+	min-height:300px;
+}
+
+#legacyBackground {
+    display:block !important;
+    z-index:-10;
+    min-height: 100%;
+    min-width: 1024px !important;
+    width: 100% !important;
+    height: auto !important;
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    #legacyBackground {
+        left: 50%;
+        margin-left: -512px;
+    }
+}
+
+section iframe {
+    width:100% !important;
+	height:inherit !important;
+}
+
+.littleFloater {
+    display:none;
+}
+
+#filter {
+	height:auto;
+}
+
+#filter li {
+	display:inherit;
+	float:none;
+	margin:auto;
+	padding:auto;
+	width:auto;
+}
+
+#filter h2 {
+	margin:auto;
+	padding:10px;
+}
+
+#pFolio img {
+	min-width:100%;
+}
+
+form * {
+    width:100%;
+}
+
+form div {
+	padding: 5px 0 !important;
+	margin: 5px auto !important;
+	float:none !important;
+	left:0 !important;
+	right:0 !important;
+}

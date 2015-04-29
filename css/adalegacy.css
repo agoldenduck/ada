@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+body {
+    background:#999 !important;
+}
+
+header, nav, section, article, footer {
+	background-color:#666666;
+}
+
+#legacyBackground {
+    display:block;
+    z-index:-10;
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    #legacyBackground {
+        left: 50%;
+        margin-left: -512px;
+    }
+}
+
+#pFolio section {
+	height:221px;
+	float:left;
+	overflow:hidden;
+	text-align:center;
+}
+
+#pFolio article {
+	float:left;
+}
+
+#pFolio img {
+	position:absolute;
+	min-height:221px;
+	min-width:221px;
+    width:auto;
+	height:auto;
+	clip:rect(0 221px 221px 0)
+}
+
+#thePortfolio footer {
+    float:inherit;
+    clear:both;
+}
+
+#home footer {
+	position:fixed;
+	width:400px;
+}

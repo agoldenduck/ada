@@ -1,0 +1,24 @@
+﻿<meta http-equiv="Content-Type" content="text/html; charset=utf-8">    
+	<div id="headnav">
+    <a href="../index.html"><header>
+        <img src="../images/apartment3.jpg" alt="">
+        <h1>Australian Design Architects</h1>
+    </header></a>
+    
+    <nav>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../portfolio.html">Portfolio<span>></span></a>
+            <ul>
+                <li class="first"><a href="../portfolio.html#commercial">Commercial</a></li>
+                <li><a href="../portfolio.html#residential">Residential</a></li>
+                <li><a href="../portfolio.html#heritage">Heritage</a></li>
+                <li class="last"><a href="../portfolio.html#renovations">Renovations/ additions</a></li>
+            </ul>
+        </li>
+        <li><a href="../services.html">Services</a></li>
+        <li><a href="../about.html">About us</a></li>
+        <li><a href="../contact.html">Contact us</a></li>
+    </ul>
+    </nav>
+    </div>
